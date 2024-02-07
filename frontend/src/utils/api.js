@@ -1,7 +1,5 @@
 import { URL } from "./constants";
 
-console.log(URL);
-
 const checkResponse = (res) => {
   if (res.ok || res.created) {
     return res.json();
